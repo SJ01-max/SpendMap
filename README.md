@@ -52,7 +52,7 @@
 | 항목 | 내용 |
 |------|------|
 | Language | Swift 5 |
-| UI Framework | UIKit (Storyboard 없이 코드로 구성) |
+| UI Framework | UIKit |
 | Data | Core Data |
 | Map | MapKit |
 | Location | CoreLocation |
