@@ -1,0 +1,29 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+xcuserdata/
+.DerivedData/
+DerivedData/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Build
+build/
+*.o
+*.d
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Previews
+*.xcscmblueprint
+
+# Instruments
+*.trace

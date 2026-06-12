@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		CB00A05A2FDA7533002CD4F9 /* Seoul.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Seoul.gpx; sourceTree = "<group>"; };
+		CB00A05B2FDA764F002CD4F9 /* SeoulDemo.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SeoulDemo.gpx; sourceTree = "<group>"; };
 		CB9060C52FC2FABB00E986D8 /* SpendMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpendMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,8 @@
 		CB9060BC2FC2FABB00E986D8 = {
 			isa = PBXGroup;
 			children = (
+				CB00A05B2FDA764F002CD4F9 /* SeoulDemo.gpx */,
+				CB00A05A2FDA7533002CD4F9 /* Seoul.gpx */,
 				CB9060C72FC2FABB00E986D8 /* SpendMap */,
 				CB9060C62FC2FABB00E986D8 /* Products */,
 			);
@@ -77,8 +81,6 @@
 				CB9060C72FC2FABB00E986D8 /* SpendMap */,
 			);
 			name = SpendMap;
-			packageProductDependencies = (
-			);
 			productName = SpendMap;
 			productReference = CB9060C52FC2FABB00E986D8 /* SpendMap.app */;
 			productType = "com.apple.product-type.application";
@@ -150,7 +152,6 @@
 				INFOPLIST_FILE = SpendMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -162,7 +163,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
@@ -182,7 +182,6 @@
 				INFOPLIST_FILE = SpendMap/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -194,7 +193,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
